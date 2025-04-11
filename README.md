@@ -1,5 +1,7 @@
 # Bank Loan Default Prediction
 
+This project develops a machine learning pipeline to predict loan defaults using various classification models. The dataset is highly imbalanced, and the pipeline addresses this using hybrid resampling techniques. The project compares multiple models, visualizes their performance, and concludes with an advanced stacking ensemble for optimal results.
+
 ## Data Pre-processing
 
 
