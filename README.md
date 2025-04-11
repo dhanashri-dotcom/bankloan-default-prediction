@@ -1,7 +1,18 @@
 # Bank Loan Default Prediction
 
-## Data Pre-processing
+This project builds a robust machine learning pipeline to predict loan defaults using a variety of models and resampling strategies. The dataset is highly imbalanced, and techniques like SMOTE, SMOTE-ENN, random oversampling, and undersampling are used to improve performance across classifiers. The final solution compares 13 models and incorporates hyperparameter tuning and ensembling.
 
+## Project Highlights
+
+- Full data pipeline: loading, cleaning, preprocessing
+
+- Resampling strategies: SMOTE, RandomOverSampling, RandomUnderSampling, SMOTE-ENN
+
+- Evaluation metrics: Accuracy, Precision, Recall, F1-Score, ROC AUC
+
+- Hyperparameter tuning
+
+- Models: Logistic Regression, Naive Bayes, KNN, SVM, Decision Tree, Random Forest, MLP, CatBoost, XGBoost, Stacking
 
 **Loan Default Dataset Preprocessing Pipeline** 
 
