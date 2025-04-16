@@ -31,7 +31,7 @@ This project builds a robust machine learning pipeline to predict loan defaults 
 
 | Model                    | Accuracy | AUC    | Precision | Recall | F1 Score | Notes                                       |
 |-------------------------|----------|--------|-----------|--------|----------|---------------------------------------------|
-| **Decision Tree**        | 0.7994   | 0.5580 | 0.2005    | 0.2436 | 0.2436   | Weak recall and AUC despite decent accuracy |
+| **Decision Tree**        | 0.8199   | 0.8120 | 0.8354    | 0.8601 | 0.8476   | Weak recall and AUC despite decent accuracy |
 | **Logistic Regression**  | 0.7500   | 0.8165 | 0.77      | 0.80   | 0.79     | Balanced performance, strong baseline       |
 | **SVM (Linear)**         | 0.7100   | 0.7806 | 0.69      | 0.89   | 0.78     | High recall, but imbalanced precision       |
 | **Naive Bayes (Priors)** | 0.6719   | 0.7499 | 0.2183    | 0.7070 | 0.3335   | Very high recall, low precision             |
